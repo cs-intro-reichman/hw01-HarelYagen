@@ -9,12 +9,9 @@ public class Triangle {
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 	    int c = Integer.parseInt(args[2]);
-
 	    int biggestlenght = (int) Math.max(a, b);
 		biggestlenght = (int) Math.max(biggestlenght, c);
 		boolean istriangle = ((a + b + c - biggestlenght) > biggestlenght);
-		System.out.println(a + ", " + b + ", " + c + ": " istriangle);
-
-
+		System.out.println(a + ", " + b + ", " + c + ": " + istriangle);
 	}
 }
